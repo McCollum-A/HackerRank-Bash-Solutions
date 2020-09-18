@@ -1,7 +1,7 @@
 #!/bin/bash
 
-echo "Greetings, what is your name?"
+echo "Greetings, what is your name?"  # Text to prompt correct input
 
-read -p VarName
+read -p VarName  # Read input as variable, '-p to read as prompt'
 
-echo "Welcome $VarName"
+echo "Welcome $VarName"  # prints variable in the output string
